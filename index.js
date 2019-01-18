@@ -57,7 +57,7 @@ bot.on('message', message => {
   
   let args = message.content.split(" ").slice(1);
   let x = args.join(" ")
-    if(message.content.startsWith(prefix + 'say2')) {
+    if(message.content.startsWith(prefix + 'say1')) {
         message.channel.send(''+x);
             message.delete(999)
     }
